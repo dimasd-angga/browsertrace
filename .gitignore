@@ -18,6 +18,7 @@ var/
 wheels/
 *.egg-info/
 .installed.cfg
+temp_auto_push.bat
 *.egg
 
 # Virtual env
@@ -26,7 +27,6 @@ venv/
 env/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 
@@ -39,3 +39,5 @@ env/
 uv.lock
 *.sqlite
 screenshots/
+.gitignore
+branch_structure.json
